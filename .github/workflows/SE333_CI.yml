@@ -19,18 +19,20 @@ jobs:
           architecture: x64
 
       - name: Install Linter
-        ##TODO
+        run: echo "Using Checkstyle"
 
       - name: Run Checkstyle
-        ##TODO
-      - run: mvn checkstyle:check
+        run: mvn checkstyle:check
 
       - name: Upload Checkstyle Result
-        ##TODO
+        uses: actions/upload-artifact@v4
+        with:
+          path: ./target/site/checkstyle.html
 
       - name: Run Maven Test
-        ##TODO
+        run: mvn test
 
       - name: Jacoco Report
-        ##TODO
-    uses:
+        uses: actions/upload-artifact@v4
+        with:
+          path: ./target/site/jacoco/index.html
