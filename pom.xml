@@ -80,7 +80,6 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <configLocation>checkstyle.xml</configLocation>
                     <failsOnError>false</failsOnError>
                 </configuration>
             </plugin>

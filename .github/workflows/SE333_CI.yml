@@ -22,12 +22,12 @@ jobs:
         run: echo "Using Checkstyle"
 
       - name: Run Checkstyle
-        run: mvn checkstyle:check
+        run: mvn checkstyle:checkstyle
 
       - name: Upload Checkstyle Result
         uses: actions/upload-artifact@v4
         with:
-          path: ./target/site/checkstyle.html
+          path: target/report/checkstyle.html
 
       - name: Run Maven Test
         run: mvn test
