@@ -1,8 +1,8 @@
-[![.github/workflows/SE333_CI.yml](https://github.com/idkman9411/SEE-Assignment5/actions/workflows/SE333_CI.yml/badge.svg?event=push)](https://github.com/idkman9411/SEE-Assignment5/actions/workflows/SE333_CI.yml)
-Link to workflow: https://github.com/idkman9411/SEE-Assignment5/blob/main/.github/workflows/SE333_CI.yml
+[![.github/workflows/SE333_CI.yml](https://github.com/idkman9411/SE333-Assignment5/actions/workflows/SE333_CI.yml/badge.svg?event=push)](https://github.com/idkman9411/SE333-Assignment5/actions/workflows/SE333_CI.yml)
+Link to workflow: https://github.com/idkman9411/SE333-Assignment5/blob/main/.github/workflows/SE333_CI.yml
 All the actions have passed
 
-Link to main paige: https://github.com/idkman9411/SEE-Assignment5/blob/main/.github/workflows/SE333_CI.yml
+Link to main paige: https://github.com/idkman9411/SE333-Assignment5/blob/main/.github/workflows/SE333_CI.yml
 
 Brief overview:
 
