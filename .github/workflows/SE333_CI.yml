@@ -28,7 +28,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: checkstyle-report${{ github.run_id }}
-          path: target/reports/checkstyle.html
+          path: target/reports
 
       - name: Run Maven Test
         run: mvn test
@@ -37,4 +37,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: jacoco-report${{ github.run_id }}
-          path: target/site/jacoco/index.html
+          path: target/site/jacoco
